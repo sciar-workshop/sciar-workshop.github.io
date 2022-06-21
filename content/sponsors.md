@@ -1,7 +1,7 @@
 ---
 title: "Endorsement & Supports"
 date: 2022-06-12T20:38:34+02:00
-draft: true
+draft: false
 ---
 
 **This event is endorsed** by four IEEE RAS Technical Committees:

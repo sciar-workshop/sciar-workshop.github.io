@@ -1,7 +1,7 @@
 ---
 title: "Call for Contributions"
 date: 2022-06-12T20:38:34+02:00
-draft: true
+draft: false
 ---
 
 **PAPER FORMAT**

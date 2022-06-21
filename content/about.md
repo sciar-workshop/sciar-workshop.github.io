@@ -1,7 +1,7 @@
 ---
 title: "About"
 date: 2022-06-12T18:57:30+02:00
-draft: true
+draft: false
 ---
 
 Assistive robotic devices have been used increasingly with the aim of improving the independence and quality of life of persons. As the main objective of assistive robots is to serve and support human’s needs, they must be able to communicate and interact with people in the most natural and collaborative way. This requires robots to be able to perceive the interaction environments and understand the underneath abstract knowledge, reason on such knowledge to make decisions which will be eventually transformed into physical actions in interactions with the environment, such as via grasping, navigation, speech, postures, etc. that are both legible and socially-acceptable to humans.
