@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html class="no-js" lang="{{ $.Site.Home.Language }}">
+{{ partial "head.html" . }}
+
+<body>
+    {{ block "header" . }}
+    {{ partial "header.html" . }}
+    {{ end }}
+
+    <main>
+        {{ block "main" . }}
+        <!-- Missing main block -->
+        {{ end }}
+    </main>
+
+    {{ if (not .IsHome) }}
+    {{ block "footer.html" . }}
+    {{ partialCached "footer.html" . }}
+    {{ end }}
+    {{ end }}
+
+    {{ partial "scripts" . }}
+</body>
+
+</html>

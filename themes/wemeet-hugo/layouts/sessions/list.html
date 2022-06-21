@@ -1,0 +1,30 @@
+{{ define "main" }}
+
+<div class="slider_area slider_bg_1" style="height: auto; padding-bottom: 0px;">
+</div>
+
+<div class="speakers_area">
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-12">
+                <div class="serction_title_large mb-50">
+                    <h3>
+                        {{ .Title }}
+                    </h3>
+                </div>
+            </div>
+        </div>
+        <div class="event_area double_line">
+            <div class="row">
+                <div class="col-xl-12 col-lg-12">
+                    {{ $sessions := where .Site.AllPages ".Section" "sessions" }}
+                    {{ range where $sessions ".Kind" "page" }}
+                    <li>{{ partial "session.html" . }}</li>
+                    {{ end }}
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+{{ end }}

@@ -1,0 +1,50 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "Social and Cognitive Interactions for Assistive Robotics"
+
+theme = "wemeet-hugo"
+
+[markup.goldmark.renderer]
+    unsafe = true
+
+[params]
+    short_title = "SCIAR 2022"
+    subtitle = "Workshop In Conjunction with IROS 2022"
+    location = "Kyoto, Japan"
+    when = "27 Oct 2022"
+
+[menu]
+[[menu.nav]]
+    name = "Home"
+    url = "/"
+    weight = 1
+
+[[menu.nav]]
+    name = "About"
+    url = "/about"
+    weight = 2
+
+[[menu.nav]]
+    name = "Program"
+    url = "/sessions"
+    weight = 3
+
+[[menu.nav]]
+    name = "Submissions"
+    url = "/contributions"
+    weight = 4
+
+[[menu.nav]]
+    name = "Speakers"
+    url = "/speakers"
+    weight = 5
+
+[[menu.nav]]
+    name = "Organizers"
+    url = "/organizers"
+    weight = 6
+
+[[menu.nav]]
+    name = "Sponsors"
+    url = "/sponsors"
+    weight = 7

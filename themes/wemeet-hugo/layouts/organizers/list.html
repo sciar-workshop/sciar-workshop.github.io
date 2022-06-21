@@ -1,0 +1,70 @@
+{{ define "main" }}
+
+<div class="slider_area slider_bg_1" style="height: auto; padding-bottom: 0px;">
+</div>
+
+{{ $pages := where .Site.AllPages ".Section" "organizers" }}
+{{ $n_pages := len $pages }}
+{{ $n_rows := add (div $n_pages 3.0) -1 }}
+
+<div class="speakers_area" style="padding-bottom: 0; min-height: 0;">
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-12">
+                <div class="serction_title_large mb-95">
+                    <h3>
+                        {{ .Title }}
+                    </h3>
+                </div>
+            </div>
+        </div>
+        {{ range $row, $sequence := (seq (math.Ceil $n_rows)) }}
+        <div class="row">
+            {{ range $col, $sequence := seq 3 }}
+            {{ $page_index := add $col (mul $row 3) }}
+            {{ with (index $pages $page_index) }}
+            {{ if (not .Params.webchair) }}
+            <div class="col-xl-4 col-md-4">
+                <li>{{ partial "speaker.html" . }}</li>
+            </div>
+            {{ end }}
+            {{ end }}
+            {{ end }}
+        </div>
+        {{ end }}
+    </div>
+</div>
+
+{{ $pages := where .Site.AllPages ".Section" "organizers" }}
+{{ $n_pages := len $pages }}
+{{ $n_rows := add (div $n_pages 3.0) -1 }}
+
+<div class="speakers_area">
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-12">
+                <div class="serction_title_large mb-95">
+                    <h3>
+                        Web Chair
+                    </h3>
+                </div>
+            </div>
+        </div>
+        {{ range $row, $sequence := (seq (math.Ceil $n_rows)) }}
+        <div class="row">
+            {{ range $col, $sequence := seq 3 }}
+            {{ $page_index := add $col (mul $row 3) }}
+            {{ with (index $pages $page_index) }}
+            {{ if .Params.webchair }}
+            <div class="col-xl-4 col-md-4">
+                <li>{{ partial "speaker.html" . }}</li>
+            </div>
+            {{ end }}
+            {{ end }}
+            {{ end }}
+        </div>
+        {{ end }}
+    </div>
+</div>
+
+{{ end }}

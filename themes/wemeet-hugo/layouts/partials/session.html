@@ -1,0 +1,12 @@
+<div class="single_speaker">
+    <img src="/img/people/{{ .Params.speaker  }}.png" alt="">
+    <div class="speaker-name">
+        <div class="heading d-flex justify-content-between align-items-center">
+            <span>{{ replace .Params.speaker "-" " " | title }}</span>
+            <div class="time">
+                {{ .Params.time }}
+            </div>
+        </div>
+        <p>{{ .Content }}</p>
+    </div>
+</div>
