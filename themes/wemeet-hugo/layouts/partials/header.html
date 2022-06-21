@@ -20,8 +20,8 @@
                                     {{ range .Site.Menus.nav }}
                                     {{ $active := $currentPage.HasMenuCurrent "nav" . }}
                                     {{ if (and (eq .Weight 1) (not $self.IsHome)) }}
-                                    <li><a class="{{ if $active }}active{{ end }}" href="{{ .URL }}">{{
-                                            $self.Site.Params.short_title }}</a>
+                                    <li><a class="{{ if $active }}active{{ end }}"
+                                            href="{{ .URL }}">{{$self.Site.Params.short_title }}</a>
                                     </li>
                                     {{ else }}
                                     <li><a class="{{ if $active }}active{{ end }}" href="{{ .URL }}">{{ .Name }}</a>
