@@ -16,7 +16,7 @@ draft: false
             <img src="/img/springlogo.jpeg" style="max-width: 100%; height: auto; display: block;" alt="">
         </div>
         <div class="speaker_name text-center">
-            <p>Organization of this workshop was supported by EU Horizon 2020 SPRING project (GA #871245)</p>
+            <p>Organization of this workshop is supported by EU Horizon 2020 SPRING project (GA #871245)</p>
         </div>
     </div>
     <div class="col-md-6 img-responsive">
