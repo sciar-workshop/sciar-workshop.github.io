@@ -1309,7 +1309,7 @@ h3 {
 .slider_area .title_text h3 {
   font-size: 80px;
   font-weight: 700;
-  text-transform: capitalize;
+  /* text-transform: capitalize; */
   line-height: 100px;
   color: #fff;
   margin-bottom: 0px;

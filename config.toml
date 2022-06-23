@@ -1,6 +1,6 @@
 baseURL = "https://sciar-workshop.github.io/"
 languageCode = "en-us"
-title = "Social and Cognitive Interactions for Assistive Robotics"
+title = "Social and Cognitive Interactions for Assistive Robotics - SCIAR"
 
 theme = "wemeet-hugo"
 
