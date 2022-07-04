@@ -30,4 +30,7 @@ The list of topics addressed in the workshop are listed below:
 - Applications of human- socially assistive robot interactions (e.g. for heath, education, entertainment, business)
 - Ambient assisted living
 - Human robot interactions and cognitive impairments
-
+- Social acceptance of robots based on human nonverbal behavioral cues (e.g., eye gaze, facial expressions, group formations)
+- Interactional synchrony between human and social robots
+- Human-robot interaction styles
+- Robot navigation problem in social interaction scenarios (e.g., adaptive planning)
