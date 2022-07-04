@@ -1,14 +1,11 @@
 <div class="single_speaker">
-    <div class="speaker_thumb">
-        <img src="/img/people/{{ .Params.id }}.png" alt="">
-        <div class="hover_overlay">
-            <div class="social_icon">
-                <a href="{{ .Params.website }}"><i class="fa fa-globe"></i></a>
-            </div>
+    <a href="{{ .Params.website }}">
+        <div class="speaker_thumb">
+            <img src="/img/people/{{ .Params.id }}.png" alt="">
         </div>
-    </div>
-    <div class="speaker_name text-center">
-        <h3>{{ .Params.name }}</h3>
-        <p>{{ .Params.location }}</p>
-    </div>
+        <div class="speaker_name text-center">
+            <h3>{{ .Params.name }}</h3>
+            <p>{{ .Params.location }}</p>
+        </div>
+    </a>
 </div>
