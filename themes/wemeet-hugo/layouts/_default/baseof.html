@@ -13,11 +13,11 @@
         {{ end }}
     </main>
 
-    {{ if (not .IsHome) }}
+    {{/* {{ if (not .IsHome) }}
     {{ block "footer.html" . }}
     {{ partialCached "footer.html" . }}
     {{ end }}
-    {{ end }}
+    {{ end }} */}}
 
     {{ partial "scripts" . }}
 </body>
