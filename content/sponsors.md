@@ -30,5 +30,3 @@ draft: false
 </div>
 
 The content of this webpage is the sole responsibility of the organizers. The European Commission or its services or PAL Robotics cannot be held responsible for any use that may be made of the information it contains. 
-
-This template is made with love by [Colorlib](https://colorlib.com/).
