@@ -3,6 +3,10 @@ languageCode = "en-us"
 title = "Social and Cognitive Interactions for Assistive Robotics - SCIAR"
 
 theme = "wemeet-hugo"
+googleAnalytics = "G-N217ZBKVGG"
+[privacy]
+  [privacy.googleAnalytics]
+    anonymizeIP = true
 
 [markup.goldmark.renderer]
     unsafe = true
