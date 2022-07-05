@@ -5,10 +5,9 @@
                 <div class="row align-items-center justify-content-between no-gutters">
                     <div class="col-xl-2 col-lg-2">
                         <div class="logo-img" style="height: 26px;">
-                            <!-- <h3 style="color: white;">{{ .Site.Params.short_title }}</h3> -->
-                            <!-- <a href="index.html">
-                                <img src="/img/logo.png">
-                            </a> -->
+                            {{ if not $.IsHome }}
+                            <h3 style="color: white;"><a href="/">{{ .Site.Params.short_title }}</a></h3>
+                            {{ end }}
                         </div>
                     </div>
                     <div class="col-xl-8 col-lg-8">
@@ -20,8 +19,7 @@
                                     {{ range .Site.Menus.nav }}
                                     {{ $active := $currentPage.HasMenuCurrent "nav" . }}
                                     {{ if (and (eq .Weight 1) (not $self.IsHome)) }}
-                                    <li><a class="{{ if $active }}active{{ end }}"
-                                            href="{{ .URL }}">{{$self.Site.Params.short_title }}</a>
+                                    <li><a class="{{ if $active }}active{{ end }}" href="{{ .URL }}">Home</a>
                                     </li>
                                     {{ else }}
                                     <li><a class="{{ if $active }}active{{ end }}" href="{{ .URL }}">{{ .Name }}</a>
