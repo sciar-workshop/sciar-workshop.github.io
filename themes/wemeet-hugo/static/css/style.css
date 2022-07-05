@@ -17,7 +17,7 @@
 /* line 12, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_extend.scss */
 .speakers_area .single_speaker .speaker_thumb .hover_overlay .social_icon a:hover {
   /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ff9600+0,fe531e+26,c022a5+57,1bb8f9+100 */
-  background: #393E41;
+  background: #12664F;
   /* Old browsers */
   /* background: -moz-linear-gradient(top, #ff9600 0%, #fe531e 26%, #c022a5 57%, #1bb8f9 100%);
   /* FF3.6-15 */
@@ -980,12 +980,12 @@ h3 {
 
 /* line 92, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_header.scss */
 .header-area .main-header-area .main-menu ul li a:hover {
-  color: #3F88C5;
+  /* color: #12664F; */
 }
 
 /* line 95, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_header.scss */
 .header-area .main-header-area .main-menu ul li a.active {
-  color: #3F88C5;
+  /* color: #12664F; */
 }
 
 /* line 99, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_header.scss */
@@ -1055,7 +1055,7 @@ h3 {
   left: 0;
   right: 0;
   z-index: 99;
-  background: #393E41;
+  background: #12664F;
   transform: translateY(70px);
   transition: transform 500ms ease, background 500ms ease;
   -webkit-transition: transform 500ms ease, background 500ms ease;
@@ -1123,7 +1123,7 @@ h3 {
 /* line 1, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_slider.scss */
 .slider_bg_1 {
   /* background-image: url(/img/banner/banner_1.png); */
-  background-color: #393E41;
+  background-color: #12664F;
 }
 
 /* line 4, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_slider.scss */
@@ -1635,7 +1635,7 @@ h3 {
 /* line 79, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_about.scss */
 .about_area .about_info .about_list li::before {
   content: "";
-  background: #3F88C5;
+  background: #12664F;
   width: 15px;
   height: 15px;
   border-radius: 50%;
@@ -1667,7 +1667,7 @@ h3 {
 /* line 105, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_about.scss */
 .about_area .about_info a {
   text-align: center;
-  color: #3F88C5;
+  color: #12664F;
 }
 
 /* line 111, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_about.scss */
@@ -1928,7 +1928,7 @@ h3 {
   display: inline-block;
   line-height: 50px;
   font-size: 17px;
-  color: #3F88C5;
+  color: #12664F;
   margin: 0 7px;
 }
 
@@ -1949,7 +1949,7 @@ h3 {
 .speakers_area .single_speaker .speaker_name p {
   margin-bottom: 0;
   font-size: 16px;
-  color: #3F88C5;
+  color: #12664F;
   font-weight: 400;
 }
 
@@ -2403,7 +2403,7 @@ h3 {
 /* line 1, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_footer.scss */
 .footer_bg_1 {
   /* background-image: url(/img/banner/footer_bg_1.png); */
-  background-color: #393E41;
+  background-color: #12664F;
 }
 
 /* line 4, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_footer.scss */
