@@ -1950,7 +1950,7 @@ h3 {
   margin-bottom: 0;
   font-size: 16px;
   color: #12664F;
-  font-weight: 400;
+  font-weight: 600;
 }
 
 /* line 93, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_speakers.scss */
@@ -6040,4 +6040,12 @@ h6 {
 
 .mega_padding {
   padding-bottom: 1000px;
+}
+
+.about_list strong {
+  color: #12664F;
+}
+
+#important-dates {
+  padding-top: 50px;
 }
