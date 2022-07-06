@@ -850,7 +850,7 @@ h3 {
 
 /* line 6, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_header.scss */
 .header-area .main-header-area {
-  padding: 0 15px;
+  padding: 0 180px;
 }
 
 @media (max-width: 767px) {
@@ -875,10 +875,6 @@ h3 {
   .header-area .main-header-area {
     padding: 0 50px;
   }
-}
-
-.header-area .main-header-area .logo-img {
-  display: none;
 }
 
 @media (max-width: 767px) {
@@ -940,7 +936,7 @@ h3 {
   font-size: 16px;
   font-weight: 600;
   display: inline-block;
-  padding: 35px 8px 35px 8px;
+  padding: 35px 23px 35px 23px;
   font-family: "Poppins", sans-serif;
   position: relative;
   text-transform: capitalize;
@@ -1127,7 +1123,6 @@ h3 {
 
 /* line 1, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_slider.scss */
 .slider_bg_1 {
-  /* background-image: url(/img/banner/banner_1.png); */
   background-color: #12664F;
 }
 
@@ -1138,7 +1133,7 @@ h3 {
   background-repeat: no-repeat;
   padding-top: 100px;
   padding-bottom: 100px;
-  height: 90vh;
+  /* height: 90vh; */
 }
 
 @media (max-width: 767px) {
@@ -1167,7 +1162,6 @@ h3 {
 /* line 22, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_slider.scss */
 .slider_area .title_text {
   position: relative;
-  /* margin-bottom: 213px; */
   z-index: 3;
   padding: 10px 8px 12px 0px;
 }
@@ -1316,7 +1310,7 @@ h3 {
 
 /* line 97, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_slider.scss */
 .slider_area .title_text h3 {
-  font-size: 80px;
+  font-size: 90px;
   font-weight: 700;
   /* text-transform: capitalize; */
   line-height: 100px;
@@ -1343,8 +1337,6 @@ h3 {
 
   .slider_area .title_text h4 {
     font-size: 18px;
-    /* line-height: 43px; */
-    /* margin-bottom: 30px; */
   }
 }
 
@@ -1359,8 +1351,6 @@ h3 {
 
   .slider_area .title_text h4 {
     font-size: 24px;
-    /* line-height: 55px; */
-    /* margin-bottom: 30px; */
   }
 }
 
@@ -1375,8 +1365,6 @@ h3 {
 
   .slider_area .title_text h4 {
     font-size: 30px;
-    /* line-height: 70px; */
-    /* margin-bottom: 20px; */
   }
 }
 
@@ -1617,6 +1605,7 @@ h3 {
   margin-top: 34px;
 }
 
+
 /* line 68, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_about.scss */
 .about_area .about_info .about_list ul {
   margin-top: 10px;
@@ -1817,7 +1806,7 @@ h3 {
 
 /* line 1, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_speakers.scss */
 .speakers_area {
-  padding-top: 15px;
+  padding-top: 100px;
   position: relative;
   padding-bottom: 105px;
 }
@@ -1896,9 +1885,9 @@ h3 {
   height: 100%;
   top: 0;
   /* left: 0;
-  bottom: 0; */
-  /* background: rgba(255, 0, 0, 0.5); */
-  /* -webkit-transition: 0.3s;
+  bottom: 0;
+  background: rgba(255, 0, 0, 0.5);
+  -webkit-transition: 0.3s;
   -moz-transition: 0.3s;
   -o-transition: 0.3s;
   transition: 0.3s;
@@ -2411,7 +2400,6 @@ h3 {
 
 /* line 1, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_footer.scss */
 .footer_bg_1 {
-  /* background-image: url(/img/banner/footer_bg_1.png); */
   background-color: #12664F;
 }
 
@@ -2421,7 +2409,7 @@ h3 {
   background-position: top center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 10vh;
+  /* position: relative; */
 }
 
 /* line 10, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_footer.scss */
@@ -2600,12 +2588,7 @@ h3 {
 
 /* line 133, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_footer.scss */
 .footer .copy-right_text {
-  padding-bottom: 10px;
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  margin: auto
+  padding-bottom: 30px;
 }
 
 /* line 135, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_footer.scss */
@@ -6050,15 +6033,3 @@ h6 {
 }
 
 /*# sourceMappingURL=style.css.map */
-
-.mega_padding {
-  padding-bottom: 1000px;
-}
-
-.about_list strong {
-  color: #12664F;
-}
-
-#important-dates {
-  padding-top: 50px;
-}
