@@ -1,39 +1,40 @@
-<div class="header-area">
-    <div id="sticky-header" class="main-header-area">
-        <div class="container-fluid p-0">
-            <div class="row align-items-center justify-content-between no-gutters">
-                <div class="col-xl-2 col-lg-2">
-                    <div class="logo-img">
-                        <a href="index.html">
-                            <img class="sciar-logo" src="/img/logo.png" alt="">
-                        </a>
+<header>
+    <div class="header-area">
+        <div id="sticky-header" class="main-header-area">
+            <div class="container-fluid p-0">
+                <div class="row align-items-center justify-content-between no-gutters">
+                    <div class="col-xl-2 col-lg-2">
+                        <div class="logo-img">
+                            <a href="index.html">
+                                <img class="sciar-logo" src="/img/logo.png" alt="">
+                            </a>
+                        </div>
                     </div>
-                </div>
-                <div class="col-xl-8 col-lg-8">
-                    <div class="main-menu  d-none d-lg-block">
-                        <nav>
-                            <ul id="navigation">
-                                {{ $self := . }}
-                                {{- $currentPage := . -}}
-                                {{ range .Site.Menus.nav }}
-                                {{ $active := $currentPage.HasMenuCurrent "nav" . }}
-                                {{ if (and (eq .Weight 1) (not $self.IsHome)) }}
-                                <li><a class="{{ if $active }}active{{ end }}" href="{{ .URL }}">Home</a>
-                                </li>
-                                {{ else }}
-                                <li><a class="{{ if $active }}active{{ end }}" href="{{ .URL }}">{{ .Name }}</a>
-                                </li>
-                                {{ end }}
-                                {{ end }}
-                            </ul>
-                        </nav>
+                    <div class="col-xl-10 col-lg-10">
+                        <div class="main-menu  d-none d-lg-block">
+                            <nav>
+                                <ul id="navigation">
+                                    {{ $self := . }}
+                                    {{- $currentPage := . -}}
+                                    {{ range .Site.Menus.nav }}
+                                    {{ $active := $currentPage.HasMenuCurrent "nav" . }}
+                                    {{ if (and (eq .Weight 1) (not $self.IsHome)) }}
+                                    <li><a class="{{ if $active }}active{{ end }}" href="{{ .URL }}">Home</a>
+                                    </li>
+                                    {{ else }}
+                                    <li><a class="{{ if $active }}active{{ end }}" href="{{ .URL }}">{{ .Name }}</a>
+                                    </li>
+                                    {{ end }}
+                                    {{ end }}
+                                </ul>
+                            </nav>
+                        </div>
                     </div>
-                </div>
-                <div class="col-12">
-                    <div class="mobile_menu d-block d-lg-none"></div>
+                    <div class="col-12">
+                        <div class="mobile_menu d-block d-lg-none"></div>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-</div>
 </header>
