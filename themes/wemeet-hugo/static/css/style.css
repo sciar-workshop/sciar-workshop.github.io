@@ -877,12 +877,17 @@ h3 {
   }
 }
 
+.header-area .main-header-area .logo-img {
+  height: 50px;
+}
+
 @media (max-width: 767px) {
 
   /* line 17, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_header.scss */
   .header-area .main-header-area .logo-img {
     display: block;
     padding-left: 20px;
+    height: 28px;
   }
 }
 
@@ -891,6 +896,7 @@ h3 {
   /* line 17, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_header.scss */
   .header-area .main-header-area .logo-img {
     padding-left: 20px;
+    height: 28px;
   }
 }
 
@@ -2588,7 +2594,14 @@ h3 {
 
 /* line 133, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_footer.scss */
 .footer .copy-right_text {
-  padding-bottom: 30px;
+  position: absolute;
+  bottom: 0;
+  align-items: center;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 10px;
 }
 
 /* line 135, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_footer.scss */

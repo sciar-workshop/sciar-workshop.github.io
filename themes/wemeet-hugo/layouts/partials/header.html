@@ -5,14 +5,12 @@
                 <div class="row align-items-center justify-content-between no-gutters">
                     <div class="col-xl-2 col-lg-2">
                         <div class="logo-img">
-                            <div class="logo-img" style="height: 28px;">
-                                {{ if not $.IsHome }}
-                                <a href="/">
-                                    <img class="sciar-logo" src="/img/sciar_pittogramma_bianco.png" alt=""
-                                        style="height: 100%; width: 100%; object-fit: contain; object-position: left;">
-                                </a>
-                                {{ end }}
-                            </div>
+                            {{ if not $.IsHome }}
+                            <a href="/">
+                                <img class="sciar-logo" src="/img/sciar_pittogramma_bianco.png" alt=""
+                                    style="height: 100%; width: 100%; object-fit: contain; object-position: left;">
+                            </a>
+                            {{ end }}
                         </div>
                     </div>
                     <div class="col-xl-10 col-lg-10">
