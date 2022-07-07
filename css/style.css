@@ -1332,7 +1332,7 @@ h3 {
   .slider_area .title_text h3 {
     font-size: 36px;
     line-height: 43px;
-    margin-bottom: 30px;
+    /* margin-bottom: 30px; */
   }
 
   .slider_area .title_text h4 {
