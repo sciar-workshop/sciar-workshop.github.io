@@ -18,6 +18,6 @@ The best papers will be invited a Special Issue in a journal (TBD).
 
 Workshop submission deadline: **19 September 2022**
 
-Workshop author notification: **3 October 2022**
+Workshop author notification: **10 October 2022**
 
 Finalized workshop program: **14 October 2022**
