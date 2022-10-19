@@ -39,7 +39,7 @@ draft: false
 {{< youtube _iB0ZNGjWCA >}}
 <br />
 
-### Shivendra Agrawal
+### Shivendra Agrawal et al.
 #### ShelfHelp: Empowering Humans to Perform Vision-Independent Manipulation Tasks with a Socially Assistive Robotic Cane
 {{< youtube TyhW17NcXdI >}}
 <br />
