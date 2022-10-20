@@ -57,6 +57,5 @@ TBD
 
 ### Masa Tomsic et al.
 #### Complex Facial Gesture Generation via Human-in-the-Loop Tactile Control for Socially Intuitive Interactionable Androids
-TBD
-
+{{< youtube Oiyr3aZ-DlY >}}
 <br />
