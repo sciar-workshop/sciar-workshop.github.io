@@ -942,7 +942,7 @@ h3 {
   font-size: 16px;
   font-weight: 600;
   display: inline-block;
-  padding: 35px 23px 35px 23px;
+  padding: 35px 10px 35px 10px;
   font-family: "Poppins", sans-serif;
   position: relative;
   text-transform: capitalize;
@@ -952,7 +952,7 @@ h3 {
 
   /* line 43, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_header.scss */
   .header-area .main-header-area .main-menu ul li a {
-    padding: 35px 8px 35px 8px;
+    padding: 35px 0px 25px 0px;
   }
 }
 
@@ -960,7 +960,7 @@ h3 {
 
   /* line 43, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_header.scss */
   .header-area .main-header-area .main-menu ul li a {
-    padding: 35px 8px 35px 8px;
+    padding: 35px 0px 25px 0px;
   }
 }
 
