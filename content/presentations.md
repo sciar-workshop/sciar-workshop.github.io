@@ -51,8 +51,7 @@ draft: false
 
 ### Christopher Birmingham et al.
 #### Socially Assistive Robots for Support Group Facilitation
-TBD
-
+{{< youtube 4h93e1nSxw0>}}
 <br />
 
 ### Masa Tomsic et al.
