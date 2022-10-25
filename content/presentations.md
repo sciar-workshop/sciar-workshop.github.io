@@ -20,7 +20,7 @@ draft: false
 <br />
 
 ### Doreen Jirak et al.
-#### Deep Learning Classification of Touch Gestures Using Distributed Normal and Shear Force
+#### I am Only Happy When There is Light: The Impact of Environmental Changes on Affective Facial Expressions Recognition
 {{< youtube gI7gKOciRfg >}}
 <br />
 
