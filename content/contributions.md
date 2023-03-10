@@ -21,3 +21,11 @@ Workshop submission deadline: **19 September 2022**
 Workshop author notification: **10 October 2022**
 
 Finalized workshop program: **14 October 2022**
+
+<br/>
+
+## CALL for SPECIAL ISSUE in International Journal of Social Robotics
+
+<img src="/img/journal.jpg">
+
+More details are available [here](https://www.springer.com/journal/12369/updates/24073292).
